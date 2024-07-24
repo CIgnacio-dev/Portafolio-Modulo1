@@ -1,0 +1,56 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Edu AU VIC WA NT Hand";
+    background: linear-gradient(45deg, #e96443, #904e95);
+}
+
+header nav {
+    background-color: #f8f9fa;
+}
+
+section {
+    margin-top: 30px;
+}
+
+footer {
+    color: #fff;
+    padding: 10px 0;
+}
+#toggle-font{
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.alternate-font {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 21PX;
+}
+.card img{
+    border: 2px solid black;
+    height: 250px;
+}
+
+
+.img-zoom {
+    transition: transform 0.5s ease;
+}
+
+.img-zoom:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+.carousel img{
+    width: 200px;
+    height: 200px;
+}
+#projects {
+    background-color: rgba(236, 240, 241, 0.9);
+    color: #2c3e50;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
